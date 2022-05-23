@@ -30,4 +30,3 @@ schedule.every(55).minutes.do(sleeping)
 
 while True:
     schedule.run_pending()
-    time.sleep(1)
